@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Similar style section -------------------------------- */
+
+
+/* Banner style section -------------------------------- */
+
+.banner-container{
+    background-image: url(assets/images/banner/banner3.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.banner-text-area{
+    text-align: right;
+    align-items: center;
+    /* margin-right: 230px; */
+}
+.banner-title{
+    font-size: 50px;
+}
