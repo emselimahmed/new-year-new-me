@@ -97,7 +97,7 @@
     height: 100vh;
 }
 
-.heading-title {
+.heading-title{
     font-size: 40px;
     text-align: center;
     padding: 40px;
@@ -136,9 +136,11 @@
 }
 
 .apply-now-texts {
-    background-image: linear-gradient(45deg,
+    /* background-image: linear-gradient(45deg,
             rgba(70, 70, 218, 1) 50%, rgb(233, 186, 186) 100%), url(assets/images/watch.png);
-             background-blend-mode: hard-light;
+             background-blend-mode: hard-light; */
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(assets/images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -158,4 +160,45 @@
 .apply-btn {
     margin-left: 35px;
 
+}
+
+/* Footer style section ------------------------------ */
+
+.footer-container{
+    background-color: #151414;
+    color: white;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-text-area{
+    width: 30%;
+}
+.footer-title, .sub-title{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.footer-description{
+    margin-bottom: 30px;
+}
+
+.subscribe-container{
+    display: block;
+}
+.icons{
+}
+.social-icon{
+    padding-right: 10px;
+    
+}
+
+.sub-email{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
