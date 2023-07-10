@@ -93,17 +93,60 @@
 
 /* My Plan Style Section------------------------------- */
 
-.my-plan-container{
+.my-plan-container {
     height: 100vh;
 }
 
-.heading-title{
+.heading-title {
     font-size: 40px;
     text-align: center;
-    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .plan-lists {
     display: flex;
     justify-content: space-around;
+    /* padding: 120px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 2px; */
+    margin-bottom: 80px;
+
+}
+
+.plan-list {
+    text-align: center;
+
+}
+
+.plan-image {
+    width: 80px;
+    padding: 10px;
+
+}
+
+.plan-title {
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.plan-description {
+    font-size: 20px;
+    color: #737272;
+    /* padding: 10px; */
+}
+
+.apply-now-texts {
+    background-image: url(assets/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1040px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+
+
+
 }
