@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
 }
 
 /* Similar style section -------------------------------- */
@@ -21,6 +21,10 @@
     border: 1px solid white;
 }
 
+.title {
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* Banner style section -------------------------------- */
 
@@ -59,8 +63,32 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
+}
+
+.failure-images {
+    width: 50%;
+}
+
+.failure-text-area {
+    width: 50%;
 }
 
 .failure-photo {
     width: 451px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
+
+.failure-text-description {
+    width: 420px;
+    padding: 20px 0px;
+}
+
+.failure-li{
+    display: flex;
+    gap: 5px;
+}
+
+/* My Plan Style Section------------------------------- */
+
