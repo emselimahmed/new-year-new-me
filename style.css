@@ -6,7 +6,7 @@
 /* Similar style section -------------------------------- */
 
 .btn{
-    padding: 18px 22px;
+    padding: 16px 20px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 5px;
@@ -39,7 +39,7 @@
     text-align: right;
     color: white;
     width: 50%;
-    margin-left: 250px;
+    margin-left: 260px;
 }
 .banner-title{
     font-size: 55px;
