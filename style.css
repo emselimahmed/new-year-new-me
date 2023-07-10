@@ -85,10 +85,14 @@
     padding: 20px 0px;
 }
 
-.failure-li{
+.failure-li {
     display: flex;
     gap: 5px;
 }
 
 /* My Plan Style Section------------------------------- */
 
+.plan-lists {
+    display: flex;
+    justify-content: space-around;
+}
