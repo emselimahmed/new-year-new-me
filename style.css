@@ -5,6 +5,21 @@
 
 /* Similar style section -------------------------------- */
 
+.btn{
+    padding: 18px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    color: #005daa;
+}
+.btn:hover{
+    background-color: #005daa;
+    color: white;
+    box-shadow: black 10px 10px 100px;
+    border: 1px solid white;
+}
+
 
 /* Banner style section -------------------------------- */
 
@@ -14,15 +29,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-text-area{
     text-align: right;
-    align-items: center;
-    /* margin-right: 230px; */
+    color: white;
+    width: 50%;
+    margin-left: 250px;
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 55px;
 }
+.banner-description{
+    padding-left: 200px;
+    margin: 25px 0px;
+}
+
