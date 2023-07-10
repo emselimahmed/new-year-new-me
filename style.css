@@ -12,6 +12,7 @@
     border-radius: 5px;
     border: 0;
     color: #005daa;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -76,9 +77,9 @@
 }
 
 .failure-photo {
-    width: 451px;
+    width: 450px;
     margin-left: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .failure-text-description {
@@ -176,7 +177,7 @@
 .footer-text-area{
     width: 30%;
 }
-.footer-title, .sub-title{
+.footer-title{
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -187,13 +188,15 @@
 .subscribe-container{
     display: block;
 }
-.icons{
-}
+
 .social-icon{
     padding-right: 10px;
+    cursor: pointer;
     
 }
-
+.sub-title{
+    margin-bottom: 20px;
+}
 .sub-email{
     padding: 15px;
     border-radius: 5px;
@@ -201,4 +204,10 @@
     width: 80%;
     font-size: 18px;
     margin-bottom: 15px;
+}
+.copyright{
+    color: gray;
+    background-color: #151414;
+    text-align: center;
+    padding: 10px;
 }
