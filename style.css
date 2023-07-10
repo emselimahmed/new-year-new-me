@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* Similar style section -------------------------------- */
 
-.btn{
+.btn {
     padding: 16px 20px;
     font-size: 18px;
     font-weight: bold;
@@ -13,7 +13,8 @@
     border: 0;
     color: #005daa;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #005daa;
     color: white;
     box-shadow: black 10px 10px 100px;
@@ -23,7 +24,7 @@
 
 /* Banner style section -------------------------------- */
 
-.banner-container{
+.banner-container {
     background-image: url(assets/images/banner/banner3.png);
     height: 100vh;
     background-position: center;
@@ -35,17 +36,31 @@
     justify-content: center;
 }
 
-.banner-text-area{
+.banner-text-area {
     text-align: right;
     color: white;
     width: 50%;
     margin-left: 260px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 55px;
 }
-.banner-description{
+
+.banner-description {
     padding-left: 200px;
     margin: 25px 0px;
 }
 
+/* previous year style section --------------------------- */
+
+.failure-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failure-photo {
+    width: 451px;
+}
